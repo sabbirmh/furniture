@@ -1,0 +1,34 @@
+// =======******======  Cont Back  ======******====== 
+
+#cont_back_part {
+
+    .main_overley {
+        position: relative;
+        z-index: 1;
+
+        &::after {
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+    }
+
+    .cont_back_img{
+        padding: 150px 0;
+
+        &::after{
+            background: rgba(51, 51, 51, 0.4);
+        }
+    }
+
+}
+
+
+
+
+// =======******======  Cont Back  ======******====== 

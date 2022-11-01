@@ -1,0 +1,207 @@
+/* =======******====== HOME FURNITURE ======******====== */
+
+
+#home_furni {
+    padding: 80px 0;
+    // background: #FDF5E6;
+
+    .all_left{
+        position: relative;
+        .left_img_info{
+            position: absolute;
+            left: 100px;
+            top: 120px;
+            transform: translate(-50%,-50%);
+
+            h2{
+                color: #fff;
+                font-size: 22px;
+                font-weight: 900;
+                font-family: 'Nunito Sans', sans-serif;
+                span{
+                    color: #77a464;
+                }
+            }
+        }
+    }
+
+    .last_info{
+        padding: 20px 0 20px;
+        background: #77a464;
+        margin-top: 40px;
+        box-shadow: 1px 4px 18px 0px rgba(0, 0, 0, 0.55);
+        -webkit-box-shadow: 1px 4px 18px 0px rgba(0, 0, 0, 0.55);
+        -moz-box-shadow: 1px 4px 18px 0px rgba(0, 0, 0, 0.55);
+        
+
+        h4{
+            color: #fff;
+            font-size: 18px;
+            font-weight: 900;
+            font-family: 'Nunito Sans', sans-serif;
+            margin-left: 20px;
+        }
+
+        a{
+            color: #fff;
+            font-size: 13px;
+            font-weight: 900;
+            font-family: 'Nunito Sans', sans-serif;
+            margin-left: 20px;
+            margin-top: 20px;
+            padding: 8px 30px;
+            border: 1px solid #fff;
+            transition: all linear.3s;
+
+            &:hover{
+                background: #333;
+                border-color: #333;
+            }
+        }
+    }
+
+    .left_side_img {
+        position: relative;
+        margin-top: 22px;
+
+        img {
+            box-shadow: 1px 4px 18px 0px rgba(0, 0, 0, 0.55);
+            -webkit-box-shadow: 1px 4px 18px 0px rgba(0, 0, 0, 0.55);
+            -moz-box-shadow: 1px 4px 18px 0px rgba(0, 0, 0, 0.55);
+            height: 400px;
+        }
+
+        .overley {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            // height: 100%;
+            // width: 100%;
+            background: rgba(51, 51, 51, 0.5);
+        }
+        
+    }
+
+
+// right side =============
+
+
+    .righ_info {
+        margin-top: 20px;
+
+        .right_img {
+
+            img {
+                height: 195px;
+                border: 1px solid #77a464;
+
+                &:hover {
+                    border: 2px solid #fff;
+                }
+            }
+
+            position: relative;
+            height: auto;
+
+
+            .overley {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                -webkit-transition: .5s ease;
+                transition: .5s ease;
+                background: rgba(51, 51, 51, 0.7);
+                // background: rgba(51, 51, 51, 0.8);
+                // background: rgba(119, 164, 100, 0.6);
+                // background: rgba(205, 49, 49, 0.815);
+
+                i {
+                    margin-right: 10px;
+                }
+
+                a {
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    color: #fff;
+                    font-size: 15px;
+                    font-weight: 400;
+                    font-family: 'Poppins', sans-serif;
+                    border-radius: 50%;
+                    line-height: 50px;
+                }
+            }
+
+            &:hover {
+                .overley {
+                    opacity: 1;
+                }
+
+            }
+
+        }
+
+
+        .img_info {
+            h3 {
+                color: #333;
+                font-size: 18px;
+                font-weight: 900;
+                font-family: 'Nunito Sans', sans-serif;
+                margin-top: 10px;
+            }
+
+            h4 {
+                color: #333;
+                font-size: 15px;
+                font-weight: 900;
+                font-family: 'Nunito Sans', sans-serif;
+            }
+
+            h6 {
+                color: #77a464;
+                font-size: 16px;
+                font-weight: 900;
+                font-family: 'Nunito Sans', sans-serif;
+            }
+        }
+    }
+
+    .right {
+        margin-top: 20px;
+        background:#FDF5E6 ;
+        padding: 30px;
+
+        h2 {
+            color: #333;
+            font-size: 25px;
+            font-weight: 900;
+            font-family: 'Nunito Sans', sans-serif;
+
+            span {
+                color: #77a464;
+            }
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+            font-weight: 900;
+            font-family: 'Nunito Sans', sans-serif;
+        }
+
+    }
+
+}
+
+
+
+/* =======******====== HOME FURNITURE ======******====== */

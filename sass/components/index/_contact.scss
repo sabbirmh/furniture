@@ -1,0 +1,74 @@
+/* =======******====== CONTACT======******====== */
+
+#contact_part{
+    padding: 60px 0;
+    background: rgba(51, 51, 51, 0.3);
+
+    .container{
+        .contact_head{
+            h3{
+                color: #333;
+                font-size: 25px;
+                font-weight: 700;
+                font-family: 'Poppins', sans-serif;
+
+                span{
+                    color: #77a464;
+                }
+            }
+
+            .contact_shape{
+                img{
+                    height: 2px;
+                }
+            }
+        }
+
+        .contact_method{
+            margin-top: 20px;
+            ul{
+                li{
+                    a{
+                        i{
+                            margin-left: 75px;
+                            font-size: 25px;
+                            color: #77a464;
+                            transition: all linear .3s;
+
+                            &:hover{
+                                color: #333;
+                            }
+                        }
+
+                        
+                    }
+                }
+
+                .contact_text{
+                    p{
+                        color: #333;
+                        font-size: 14px;
+                        font-weight: 400;
+                        font-family: 'Poppins', sans-serif;
+                        margin-top: 10px;
+                        position: relative;
+
+                        &::after{
+                            position: absolute;
+                            content: '';
+                            left: 0;
+                            bottom: -5px;
+                            height: 2px;
+                            width: 100%;
+                            background: #77a464;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/* =======******====== CONTACT======******====== */

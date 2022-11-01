@@ -1,0 +1,142 @@
+/* =======******====== Banner css ======******====== */
+
+
+.banner_slider{
+    position: relative;
+
+    .baner_item{
+
+        .text{
+           margin-top: -465PX;
+
+           h4{
+            color: #77a464;
+           
+            font-size: 20px;
+            font-weight: 900;
+            font-family: 'Nunito Sans', sans-serif;
+
+           }
+           
+          
+            h2{ color: #333;
+                font-size: 40px;
+                font-weight: 900;
+                font-family: 'Nunito Sans', sans-serif;
+                span{
+                    
+                   color:  #77a464;
+
+                }
+
+                .span{
+                    display: block;
+                    color: #333;
+                }
+            }
+
+
+            h5{
+                color: #333;
+                font-size: 18px;
+                font-weight: 900;
+                font-family: 'Nunito Sans', sans-serif;
+                margin-top: 5px;
+            }
+
+            a{
+                color: #333;
+                font-size: 18px;
+                font-weight: 400;
+                font-family: 'Nunito Sans', sans-serif;
+                margin-top: 20px;
+                padding: 6px 55px;
+                border: 1px solid #77a464;
+                background: #77a464;
+                transition: all linear .3s;
+                box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.15);
+                -webkit-box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.15);
+                -moz-box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.15);
+
+                &:hover{
+                    color: #fff;
+                    
+                    border: 1px solid #fff;
+                }
+
+            }
+
+        }
+    
+        position: relative;
+        margin-top: -70px;
+        img{
+            height: 600px;
+            
+        }
+        
+      
+    
+        // .banner_text{
+        //     position: absolute;
+        //     right: 181px;
+        //     bottom: 46px;
+        //     transform: translateX(-50%,-50%);
+    
+        //     h1{
+    
+        //         span{
+        //             display: block;
+        //         }
+    
+        //         .last{
+        //             display: block;
+        //         }
+        //     }
+        // }
+    }
+}
+
+
+
+.menu_ban {
+    position: relative;
+
+    .banner_menu {
+        position: absolute;
+        left: 83px;
+        bottom: 100px;
+        width: 175px;
+        background: rgba(255, 255, 255, 0.859);
+    }
+}
+
+
+
+.banner_menu {
+    ul {
+        li {
+
+            a {
+                padding: 7px 5px;
+                border-bottom: 1px solid #f1f1f1;
+                display: block;
+                color: #77a464;
+                font-size: 12px;
+                font-weight: 400;
+                font-family: 'Poppins', sans-serif;
+
+                i{
+                    margin: 0 10px;
+                    color: #999;
+                }
+
+
+            }
+        }
+    }
+}
+
+
+
+/* =======******====== Banner css ======******====== */

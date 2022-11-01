@@ -1,0 +1,114 @@
+/* =======******====== MENU ======******====== */
+
+
+.main_menu{
+    
+    padding: 20px 0;
+   background: rgba(0, 0, 0, 0.111);
+    
+    .container{
+
+        .logo{
+            a{
+                span{
+                    display: block;
+                    margin-left: 22px;
+                }
+
+                color: #333;
+                font-size: 17px;
+                font-weight: 700;
+                font-family: 'Poppins', sans-serif;
+            }
+        }
+    }
+    
+    
+    
+    
+    .menu_middle{
+        ul{
+            display: flex;
+            justify-content: center;
+            li{
+                margin-left: 30px;
+                margin-top: 15px;
+                
+                a{
+                    color: #333;
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-family: 'Poppins', sans-serif;
+                position: relative;
+                z-index: 1;
+                
+                &::after{
+                    position: absolute;
+                    content: '';
+                    left: -7px;
+                    bottom: -4px;
+                    height: 2px;
+                    width: 135%;
+                    background: #333;
+                    z-index: -1;
+                    transition: all linear .4s;
+                }
+                &:hover {
+                    color: #fff;
+                    transition: all linear .4s;
+                    &::after {
+                        height: 28px;
+                    }
+                }
+            }
+            
+        }
+        
+    }
+}
+
+.logo_search{
+    
+    display: inline-block;
+    position: relative;
+        margin-top: 6px;
+        margin-left: 20px;
+        
+        
+        
+        input{
+            width: 220px;
+            height: 36px;
+            border: 1px solid #333;
+            border-radius: 10px;
+            text-align: center;
+            
+            
+        }
+        
+        button{
+            position: absolute;
+            background: transparent;
+            border: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 15px;
+            font-size: 10px;
+        }
+    }
+    
+    
+    
+    
+    .login_part{
+        a{
+            margin-top: 16px;
+            color: #333;
+            font-size: 12px;
+            font-weight: 200;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+}
+
+/* =======******====== MENU ======******====== */

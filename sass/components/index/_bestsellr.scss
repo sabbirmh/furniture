@@ -1,0 +1,43 @@
+#best_seller{
+    margin-bottom: 40px;
+}
+
+.seller_container{
+    padding: 40px ;
+    border: 10px solid #333;
+    background: #f77c29;
+}
+
+
+
+
+.all_best_seler_img{
+
+    .best_seller_image{
+        img:nth-child(2){
+            display: none;
+        }
+    }
+
+    &:hover{
+        img{
+            &:first-child{
+                display: none;
+                
+            }
+        }
+        img:nth-child(2){
+            display: block;
+        }
+    }
+
+
+    // .best_seller_text{
+    //     h4{
+    //         font-size: 15px;
+    //         font-weight: 500;
+    //         color: #333;
+    //         font-family: 'Poppins', sans-serif;
+    //     }
+    // }
+}
